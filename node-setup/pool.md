@@ -15,7 +15,8 @@ registered a [stake address](staking-key.md) and have some funds at your stake a
             --pool-cost 10000000000 \
             --pool-margin 0.01 \
             --reward-account-verification-key-file stake.vkey \
-            --pool-owner-staking-verification-key stake.vkey \
+            --pool-owner-stake-verification-key-file stake.vkey \
+	    --testnet-magic 42
             --out-file pool.cert
 
    | Parameter                            | Explanation                                       |
